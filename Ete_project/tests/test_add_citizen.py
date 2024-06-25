@@ -48,11 +48,10 @@ driver.find_element('xpath','//input[@id = "phoneNumber"]').send_keys(8088145149
 driver.find_element('xpath','//input[@id = "aadharNumber"]').send_keys(626753294991)
 driver.find_element('xpath', '//textarea[@id = "address"]').send_keys("RR Nagar, Banglore")
 driver.find_element('xpath','//input[@id = "districtSelect"]').send_keys("Banglore")
-driver.find_element('xpath','//input[@id = "educationUG"]').send_keys("BE")
+driver.find_element('xpath','//textarea[@id = "educationUG"]').send_keys("BE")
 driver.find_element('xapth','//input[@id = "cityTown"]').send_keys("Banglore")
 driver.find_element('xpath','//input[@id = "educationPG"]').send_keys("MTech")
 driver.find_element('xpath','//input[@id = "pinCode"]').send_keys(530068)
 driver.find_element('xpath','//input[@name = "profesionalExperience"]').send_keys("Engineer")
 driver.find_element('xpath','//input[@name = "profesionalDepartment"]').send_keys("IT")
-
 sleep(5)
